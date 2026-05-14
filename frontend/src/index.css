@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --color-forest-dark: #0A110B;
+  --color-forest-panel: #0F1A12;
+  --color-emerald-glow: #10B981;
+  --font-sans: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* Base styles if needed */
+body {
+  background-color: var(--color-forest-dark);
+  color: #fff;
+  font-family: var(--font-sans);
+}
